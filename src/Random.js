@@ -21,7 +21,7 @@ class Random extends Component {
   async componentDidMount() {
     try {
       const API_URL =
-        "https://api.spoonacular.com/recipes/random?number=1&tags=dinner&apiKey=bdcf3df9d68b4913bafb6c882b6307e8";
+        "https://api.spoonacular.com/recipes/random?number=1&tags=dinner&apiKey=bcde502ff1fb42c593938274b7506189";
       // Fetch or access the service at the API_URL address
       const response = await fetch(API_URL);
       // wait for the response. When it arrives, store the JSON version
